@@ -1,0 +1,204 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            
+             xmlns:MaterialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:DC_SYSTEM="clr-namespace:DC_SYSTEM" xmlns:i="http://schemas.microsoft.com/xaml/behaviors" x:Class="DC_SYSTEM.Views.deliveryAreas_usctrl"
+             mc:Ignorable="d" 
+           d:DesignHeight="520" d:DesignWidth="925">
+    <Grid Background="White">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="247*"/>
+            <ColumnDefinition Width="262*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="59*"/>
+            <RowDefinition Height="512*"/>
+        </Grid.RowDefinitions>
+        <MaterialDesign:ColorZone
+  Mode="PrimaryMid"
+  Padding="16" Margin="0,0,-0.4,0" Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <DockPanel>
+
+                <StackPanel
+      Orientation="Horizontal" HorizontalAlignment="Right"
+      MaterialDesign:RippleAssist.IsCentered="True">
+                    <Button x:Name="button2" Content="תצוגה מקדימה" HorizontalAlignment="Left" Width="90" Margin="0 0 20 0" Command="{Binding Btn_CMD}" CommandParameter="TaskSchedule"/>
+                    <Button x:Name="button" Content="בצע חלוקה לאזורים" HorizontalAlignment="Left" Width="120"  Margin="0 0 50 0" Command="{Binding AddDelivery_btn_CMD}" CommandParameter="DO_Delivery"/>
+
+                   
+
+                    <DatePicker
+  x:Name="FutureDatePicker" VerticalAlignment="Top"
+  Width="100" Margin="0 0 200 0"
+  MaterialDesign:HintAssist.Hint="בחר תאריך" FlowDirection="RightToLeft"  SelectedDate="{Binding SelectedDate}"/>
+                    <Button
+        Style="{DynamicResource MaterialDesignToolForegroundButton}"
+        Margin="8 0 20 0"
+        Panel.ZIndex="0" Command="{Binding CityActionCMD}">
+                        <MaterialDesign:PackIcon
+          Kind="Send" HorizontalAlignment="Left" VerticalAlignment="Top" FlowDirection="RightToLeft" />
+                    </Button>
+
+                    <TextBox Name="combCity" VerticalAlignment="Top" Margin="0 0 20 0"
+  MaterialDesign:HintAssist.Hint="הקש עיר" FlowDirection="RightToLeft"
+  HorizontalAlignment="Right" Width="150" Text="{Binding Path=City, Mode=OneWayToSource}">
+
+
+                    </TextBox>
+
+                </StackPanel>
+            </DockPanel>
+        </MaterialDesign:ColorZone>
+        <Grid x:Name="PrintPdf" Grid.Row="1" Margin="35,52,24,10" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <MaterialDesign:Card Background="{DynamicResource MaterialDesignBackground}">
+                <StackPanel>
+                    <Expander HorizontalAlignment="Stretch"
+                            Header="בחר קשישים">
+                        <StackPanel
+        Orientation="Vertical"
+        TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+        Margin="24,8,24,16">
+                            <StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <ListBox Background="Beige"  x:Name="LeftListBox" SelectedItem="{Binding Adult}" SelectedIndex="{Binding RemoveIndex}" Margin="0,0,0,0" Width="275" Height="199" HorizontalAlignment="Left" ItemsSource="{Binding SelectedAdultsList}" >
+                                        <ListBox.ItemTemplate >
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Vertical" FlowDirection="RightToLeft">
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <TextBlock Text="{Binding FirstName}" FlowDirection="RightToLeft"/>
+                                                        <TextBlock Text="{Binding LastName}" FlowDirection="RightToLeft" Margin="2 0 0 0"/>
+                                                        <TextBlock Text="{Binding PhoneNumber}" FlowDirection="RightToLeft" Margin="7 0 0 0"/>
+                                                    </StackPanel>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <TextBlock Text="{Binding Address.Street}" FlowDirection="RightToLeft" Margin="3 5 0 0"/>
+                                                        <TextBlock Text="{Binding Address.BuildingNumber}" FlowDirection="RightToLeft" Margin="3 5 0 0"/>
+                                                        <TextBlock Text="{Binding Address.City}" FlowDirection="RightToLeft" Margin="3 5 0 0"/>
+
+                                                    </StackPanel>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ListBox.ItemTemplate>
+
+                                    </ListBox>
+                                    <ListBox  Background="Beige" VerticalAlignment="Top" HorizontalAlignment="Right" FlowDirection="RightToLeft" x:Name="RightListBox" SelectedItem="{Binding Adult}" SelectedIndex="{Binding AddIndex}" ItemsSource="{Binding AdultsByCityList }"  Width="275" Height="195" Margin="80,0,0,0"  >
+                                        <ListBox.ItemTemplate >
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Vertical" FlowDirection="RightToLeft">
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <TextBlock Text="{Binding FirstName}" FlowDirection="RightToLeft"/>
+                                                        <TextBlock Text="{Binding LastName}" FlowDirection="RightToLeft" Margin="2 0 0 0"/>
+                                                        <TextBlock Text="{Binding PhoneNumber}" FlowDirection="RightToLeft" Margin="7 0 0 0"/>
+                                                    </StackPanel>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <TextBlock Text="{Binding Address.Street}" FlowDirection="RightToLeft" Margin="3 5 0 0"/>
+                                                        <TextBlock Text="{Binding Address.BuildingNumber}" FlowDirection="RightToLeft" Margin="3 5 0 0"/>
+                                                        <TextBlock Text="{Binding Address.City}" FlowDirection="RightToLeft" Margin="3 5 0 0"/>
+
+                                                    </StackPanel>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ListBox.ItemTemplate>
+                                    </ListBox>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button x:Name="RemoveButton"  Background="#CEAA6A" Content="הסר&gt;&gt;" VerticalAlignment="Top"  Height="35" Width="115" Margin="100,7,0,0" Command="{Binding AddDelivery_btn_CMD}" CommandParameter="Remove"/>
+                                    <Button x:Name="AddButton" VerticalAlignment="Top" Background="#CEAA6A"  Height="35" Width="115" Content="&lt;&lt;הוסף" Margin="200,7,0,0" Command="{Binding AddDelivery_btn_CMD}" CommandParameter="Add" />
+
+                                </StackPanel>
+                            </StackPanel>
+                        </StackPanel>
+                    </Expander>
+                    <Border
+      Background="{DynamicResource MaterialDesignDivider}"
+      Height="1"
+      HorizontalAlignment="Stretch"
+      SnapsToDevicePixels="True" />
+                    <Expander
+      HorizontalAlignment="Stretch"
+      Header="בחירת מחלקים">
+                        <StackPanel
+        Orientation="Vertical"
+        TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+        Margin="24,8,24,16">
+
+
+                            <StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <ListBox Background="Beige"  x:Name="LeftListBox2"  Margin="0,0,0,0" ItemsSource="{Binding SelectedDeliveryMansList }" SelectedItem="{Binding DeliveryMan}" SelectedIndex="{Binding RemoveDeliveryManIndex}" Width="275" Height="195"  HorizontalAlignment="Left" >
+                                        <ListBox.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Vertical" FlowDirection="RightToLeft">
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <TextBlock Text="{Binding FirstName}" FlowDirection="RightToLeft"/>
+                                                        <TextBlock Text="{Binding LastName}" FlowDirection="RightToLeft" Margin="2 0 0 0"/>
+                                                        <TextBlock Text="{Binding Address.City}" FlowDirection="RightToLeft" Margin="6 0 0 0" FontWeight="Bold" />
+
+                                                    </StackPanel>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <TextBlock Text="{Binding Email}" FlowDirection="RightToLeft" Margin="5 0 0 0"/>
+                                                        <TextBlock Text="{Binding PhoneNumber}" FlowDirection="RightToLeft" Margin="5 0 0 0"/>
+                                                    </StackPanel>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ListBox.ItemTemplate>
+                                    </ListBox>
+                                    <ListBox  Background="Beige" x:Name="RightListBox2"  Width="275" Height="195" Margin="80,0,0,0" ItemsSource="{Binding DeliveryMansList }" SelectedItem="{Binding DeliveryMan}" SelectedIndex="{Binding AddDeliveryManIndex}" FlowDirection="RightToLeft" >
+                                        <ListBox.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Vertical" FlowDirection="RightToLeft">
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <TextBlock Text="{Binding FirstName}" FlowDirection="RightToLeft"/>
+                                                        <TextBlock Text="{Binding LastName}" FlowDirection="RightToLeft" Margin="2 0 0 0"/>
+                                                        <TextBlock Text="{Binding Address.City}" FlowDirection="RightToLeft" Margin="6 0 0 0" FontWeight="Bold" />
+
+                                                    </StackPanel>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <TextBlock Text="{Binding Email}" FlowDirection="RightToLeft" Margin="5 0 0 0"/>
+                                                        <TextBlock Text="{Binding PhoneNumber}" FlowDirection="RightToLeft" Margin="5 0 0 0"/>
+                                                    </StackPanel>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ListBox.ItemTemplate>
+                                    </ListBox>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button x:Name="RemoveButton2" VerticalAlignment="Top" Background="#CEAA6A"  Height="35" Width="115" Content="הסר &gt;&gt;" Margin="100,7,0,0" Command="{Binding AddDelivery_btn_CMD}" CommandParameter="RemoveDeliveryMan"/>
+
+                                    <Button x:Name="AddButton2"  Background="#CEAA6A" Content="&lt;&lt; הוסף" VerticalAlignment="Top"  Height="35" Width="115" Margin="200,7,0,0"  Command="{Binding AddDelivery_btn_CMD}" CommandParameter="AddDeliveryMan"/>
+
+                                </StackPanel>
+                            </StackPanel>
+                        </StackPanel>
+                    </Expander>
+                    <Border
+      Background="{DynamicResource MaterialDesignDivider}"
+      Height="1"
+      HorizontalAlignment="Stretch"
+      SnapsToDevicePixels="True" />
+                    <Expander HorizontalAlignment="Stretch"
+                            Header="מפת חלוקה">
+                        <StackPanel
+        Orientation="Vertical"
+        TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+        Margin="24,8,24,16">
+                            <Image x:Name="map" Height="200" Source="{Binding ImageSource}" Width="818"/>
+                        </StackPanel>
+                    </Expander>
+                    <Border
+      Background="{DynamicResource MaterialDesignDivider}"
+      Height="1"
+      HorizontalAlignment="Stretch"
+      SnapsToDevicePixels="True" />
+                </StackPanel>
+            </MaterialDesign:Card>
+
+        </Grid>
+
+    </Grid>
+
+
+</UserControl>

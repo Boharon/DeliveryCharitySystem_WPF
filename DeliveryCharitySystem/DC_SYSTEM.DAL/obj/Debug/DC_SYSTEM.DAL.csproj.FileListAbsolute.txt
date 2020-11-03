@@ -1,0 +1,95 @@
+C:\Users\אביטל\source\repos\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.dll
+C:\Users\אביטל\source\repos\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.pdb
+C:\Users\אביטל\source\repos\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csprojAssemblyReference.cache
+C:\Users\אביטל\source\repos\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csproj.CoreCompileInputs.cache
+C:\Users\אביטל\source\repos\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.dll
+C:\Users\אביטל\source\repos\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.pdb
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.dll
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.pdb
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csproj.CoreCompileInputs.cache
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.dll
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.pdb
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csprojAssemblyReference.cache
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.dll.config
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.dll
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.dll
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.pdb
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.xml
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csproj.CopyComplete
+C:\Users\tami\Desktop\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.dll.config
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.dll.config
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.pdb
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.pdb
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.dll.config
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csprojAssemblyReference.cache
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csproj.CopyComplete
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.pdb
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.dll.config
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.dll
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.pdb
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.dll
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.dll
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.pdb
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.dll.config
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.xml
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csprojAssemblyReference.cache
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csproj.CopyComplete
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.dll
+C:\Users\ברוך\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.pdb
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.dll.config
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.pdb
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.pdb
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.dll.config
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csprojAssemblyReference.cache
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csproj.CopyComplete
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.pdb
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\Microsoft.Owin.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\Owin.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\RestSharp.dll
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\Microsoft.Owin.xml
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Avital\Downloads\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\RestSharp.xml
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.dll.config
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.dll
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM.DAL.pdb
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.dll
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\Microsoft.Owin.dll
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\Owin.dll
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\RestSharp.dll
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.pdb
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\DC_SYSTEM._BE.dll.config
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\Microsoft.Owin.xml
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\bin\Debug\RestSharp.xml
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csprojAssemblyReference.cache
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.csproj.CopyComplete
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.dll
+C:\Users\Avital\Desktop\DeliveryCharitySystem (2)\DeliveryCharitySystem\DeliveryCharitySystem\DeliveryCharitySystem\DC_SYSTEM.DAL\obj\Debug\DC_SYSTEM.DAL.pdb

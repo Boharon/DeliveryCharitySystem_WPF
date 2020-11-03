@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="DC_SYSTEM.Views.PrintDeliveriesDetails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DC_SYSTEM.Views" xmlns:MaterialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" d:DesignWidth="520" Height="925">
+    <Grid Background="White" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="13*"/>
+            <RowDefinition Height="135*"/>
+        </Grid.RowDefinitions>
+        <MaterialDesign:ColorZone
+  Mode="PrimaryMid"
+  Padding="16" Height="64">
+            <DockPanel>
+
+                <StackPanel
+      Orientation="Horizontal" HorizontalAlignment="Right"
+      MaterialDesign:RippleAssist.IsCentered="True">
+                    <Button x:Name="Print" Content="הדפסה" Width="50" Margin=" 0 0 5 0 " Click="BTN_Display_Click"/>
+
+                    <Button x:Name="BTN_Display" Content="תצוגה מקדימה" Width="100" Margin=" 0 0 200 0 " Click="BTN_Display_Click"/>
+
+                    <Button
+        Style="{DynamicResource MaterialDesignToolForegroundButton}"
+        Margin="8 0 20 0" Command="{Binding SearchId_CMD}"
+        Panel.ZIndex="0">
+                        <MaterialDesign:PackIcon
+          Kind="Send" FlowDirection="RightToLeft"   />
+                    </Button>
+                    <TextBox   Margin="0 0 20 0" Width="100"  MaterialDesign:HintAssist.Hint="הקש תעודת זהות" VerticalAlignment="Top" Text="{Binding IdDeliver}" >
+
+                    </TextBox>
+                    <Button
+        Style="{DynamicResource MaterialDesignToolForegroundButton}"
+        Margin="8 0 20 0"
+        Panel.ZIndex="0"/>
+                    <DatePicker
+  x:Name="FutureDatePicker" VerticalAlignment="Top"
+  Width="100" Margin="0 0 50 0"
+  MaterialDesign:HintAssist.Hint="בחר תאריך" FlowDirection="RightToLeft"  SelectedDate="{Binding SelectedDate}"/>
+
+                </StackPanel>
+
+            </DockPanel>
+        </MaterialDesign:ColorZone>
+        <Grid x:Name="GridForPrinting"  Grid.Row="1" >
+            <StackPanel Orientation="Vertical" FlowDirection="RightToLeft">
+                <StackPanel Orientation="Horizontal" FlowDirection="RightToLeft">
+                    <TextBlock x:Name="textBlock" Height="60" TextWrapping="Wrap" FlowDirection="RightToLeft" VerticalAlignment="Center" HorizontalAlignment="Center" Width="270" FontSize="30" FontWeight="Bold" Text="יום מתוק של נתינה "/>
+                    <MaterialDesign:PackIcon Kind="HandHeart" HorizontalAlignment="Center" VerticalAlignment="Center" Height="40" Width="40" Margin="0 0 0 10 "   />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" FlowDirection="RightToLeft">
+                    <TextBlock x:Name="textBlock2"  HorizontalAlignment="Left" Height="42"  TextWrapping="Wrap" FlowDirection="RightToLeft" VerticalAlignment="Top" Width="414" Margin="20 0 0 0" FontSize="30"><Run Text="להלן פרטי החלוקות שלך בעיר:"/></TextBlock>
+                    <TextBlock x:Name="textBlock1"  HorizontalAlignment="Left" Height="42" TextWrapping="Wrap" Text="{Binding DeliveriesBy_ID[0].MyAdult.Address.City}" VerticalAlignment="Center" Width="122" FontSize="30"  FontWeight="Bold"/>
+                </StackPanel>
+                <ListBox  Background="White" VerticalAlignment="Top" HorizontalAlignment="Right"  FlowDirection="RightToLeft" x:Name="RightListBox" ItemsSource="{Binding DeliveriesBy_ID}"  Width="780" Height="436" Margin="0,30,10,0" >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" FlowDirection="RightToLeft">
+                                <MaterialDesign:PackIcon Kind="Account" Margin="0 0 6 0"/>
+                                <TextBlock Text="{Binding MyAdult.FirstName}" FlowDirection="RightToLeft" Margin="0 0 6 0"/>
+                                <TextBlock Text="{Binding MyAdult.LastName}" FlowDirection="RightToLeft" Margin="0 0 6 0"/>
+                                <MaterialDesign:PackIcon Kind="Home" Margin="0 0 6 0"  />
+                                <TextBlock Text="{Binding MyAdult.Address.Street}" FlowDirection="RightToLeft" Margin="0 0 6 0"/>
+                                <TextBlock Text="{Binding MyAdult.Address.BuildingNumber}" FlowDirection="RightToLeft" Margin="0 0 6 0"/>
+                                <MaterialDesign:PackIcon Kind="Telephone"  Margin="0 0 6 0" />
+                                <TextBlock Text="{Binding MyAdult.PhoneNumber}" FlowDirection="RightToLeft" Margin="0 0 6 0"/>
+
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+                <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="17" Margin="62,38,0,0" TextWrapping="Wrap" FlowDirection="RightToLeft" VerticalAlignment="Top" Width="200" Text="בהצלחה ואל תשכח לשתות מים!"/>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+
+</UserControl>

@@ -1,0 +1,29 @@
+﻿<Application x:Class="DC_SYSTEM.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DC_SYSTEM"
+             StartupUri="Menu_Win.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                    <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                    <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+                    <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+                <ResourceDictionary Source="modernButtonTheme.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <!-- primary hues  -->
+            <SolidColorBrush x:Key="PrimaryHueLightBrush" Color="#CEAA6A"/>
+            <SolidColorBrush x:Key="PrimaryHueLightForegroundBrush" Color="Black"/>
+            <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="#CEAA6A"/>
+            <SolidColorBrush x:Key="PrimaryHueMidForegroundBrush" Color="Black"/>
+            <SolidColorBrush x:Key="PrimaryHueDarkBrush" Color="#9B7B3E"/>
+            <SolidColorBrush x:Key="PrimaryHueDarkForegroundBrush" Color="#CEAA6A"/>
+            <!--  accent -->
+            <SolidColorBrush x:Key="SecondaryAccentBrush" Color="#CEAA6A"/>
+            <SolidColorBrush x:Key="SecondaryAccentForegroundBrush" Color="BLACK"/>
+        </ResourceDictionary>
+
+    </Application.Resources>
+    
+</Application>
