@@ -1,2 +1,2 @@
 # DeliveryCharitySystem_WPF
-MVVM מערכת לניהול חלוקת מצרכי מזון, שימוש בארכיטקטורת 3 השכבות ובתבנית
+System for managing food distribution, using the 3-layer architecture and the MVVM format.
